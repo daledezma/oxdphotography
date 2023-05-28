@@ -1,6 +1,4 @@
-import { Container, Box, Center, Text, Stack, Avatar, Heading, Image, Link, Tooltip, Button, useColorModeValue } from "@chakra-ui/react";
-import NextLink from 'next/link'
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { Container, Box, Center, Text, Stack, Avatar, Heading, Image } from "@chakra-ui/react";
 import Layout from "../components/layouts/layout";
 import Hero from "../components/hero";
 import Testimonials from "../components/testimonials";
@@ -59,6 +57,7 @@ const Page = () => {
                                             src={
                                             'images/allgoods2.jpeg'
                                             }
+                                            alt="All Goods MKE Store"
                                             objectFit='cover'
                                             height="100%"
                                             width="100%"
@@ -80,7 +79,7 @@ const Page = () => {
                                             All Goods MKE promotion
                                         </Heading>
                                         <Text color={'whiteAlpha.900'}>
-                                            I conducted a photoshoot with the music duo "Gego y Nony" to promote the All Goods MKE brand opening a new store in
+                                            I conducted a photoshoot with the music duo &quot;Gego y Nony&quot; to promote the All Goods MKE brand opening a new store in
                                             West Allis, Wisconsin.
                                         </Text>
                                         </Stack>
@@ -118,6 +117,7 @@ const Page = () => {
                                             src={
                                             './images/model/realrich.jpg'
                                             }
+                                            alt="Real Rich Brand"
                                             objectFit='cover'
                                             height="100%"
                                             width="100%"
@@ -177,6 +177,7 @@ const Page = () => {
                                             src={
                                             './images/concerts/masflow.jpg'
                                             }
+                                            alt="Mas Flow Concert"
                                             objectFit='cover'
                                             height="100%"
                                             width="100%"
@@ -198,7 +199,7 @@ const Page = () => {
                                             Mas Flow Reggaetón Fest
                                         </Heading>
                                         <Text color={'whiteAlpha.900'}>
-                                            Mas Flow is the first reggaeton festival in the Midwest! They bring the hottest reggaeton artists of our generation and I worked along with "Gego y Nony"
+                                            Mas Flow is the first reggaeton festival in the Midwest! They bring the hottest reggaeton artists of our generation and I worked along with &quot;Gego y Nony&quot;
                                             to photography their performance along with other artists.
                                         </Text>
                                         </Stack>

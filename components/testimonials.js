@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-import { ReactNode } from 'react';
 import {
     Box,
     Flex,
@@ -11,15 +9,13 @@ import {
     useColorModeValue,
   } from '@chakra-ui/react';
 
-import { ArrowRightIcon, ArrowLeftIcon } from '@chakra-ui/icons';
-
 
 const Testimonials = () => {
   return (
     <Box>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>You're in good hands</Heading>
+          <Heading>You&apos;re in good hands</Heading>
           <Text>See why over 100+ people have trusted me to photograph their stories!</Text>
         </Stack>
         <Stack
@@ -97,8 +93,8 @@ const Testimonials = () => {
                 textAlign={'center'}
                 color={'white'}
                 fontSize={'sm'}>
-                I've hired OXD Photography for various events and I have full faith in his ability to capture
-                amazing photographys to market my brand on social media! He's a true professional!
+                I&apos;ve hired OXD Photography for various events and I have full faith in his ability to capture
+                amazing photographys to market my brand on social media! He&apos;s a true professional!
               </Text>
             </Stack>
             <Flex align={'center'} mt={8} direction={'column'}>
@@ -140,7 +136,7 @@ const Testimonials = () => {
                 textAlign={'center'}
                 color={'white'}
                 fontSize={'sm'}>
-                I took my headshots with OXDPhotography and now I have a professional headshot to share that's my favorite photo!
+                I took my headshots with OXDPhotography and now I have a professional headshot to share that&apos;s my favorite photo!
               </Text>
             </Stack>
             <Flex align={'center'} mt={8} direction={'column'}>

@@ -1,6 +1,4 @@
-import { Container, Box, Heading, Image, Link, Tooltip, Button, useColorModeValue, List, ListItem } from "@chakra-ui/react";
-import NextLink from 'next/link'
-import { ChevronRightIcon } from "@chakra-ui/icons";
+import { Container } from "@chakra-ui/react";
 import Layout from "../components/layouts/layout";
 
 const Page = () => {
@@ -13,4 +11,4 @@ const Page = () => {
     ) 
 }
 
-export default Page
+export default Page;
