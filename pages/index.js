@@ -26,10 +26,12 @@ const Page = () => {
                         gap   : '1rem',
                         type   : 'loop',
                         objectfit: "cover",
+                        autoplay: true,
                         breakpoints: {
                             640: {
                               perPage: 1,
                               padding: { left: 0, right: 0 },
+                              arrows: false
                             }
                         }
                         

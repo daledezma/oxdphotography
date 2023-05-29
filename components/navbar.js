@@ -55,9 +55,12 @@ const Navbar = props => {
                 <Box flex={1} align="right">
                     <Box ml={2} display={{base: 'inline-block', md:'none'}}>
                         <Menu>
-                            <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Navigation Button"></MenuButton>
+                            <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Navigation Button" color='white'></MenuButton>
                             <MenuList>
-                                <MenuItem as={MenuLink} href="/">Home</MenuItem>
+                                <MenuItem as={MenuLink} href="/" color={'white'}>Home</MenuItem>
+                                <MenuItem as={MenuLink} href="./about" color={'white'}>About</MenuItem>
+                                <MenuItem as={MenuLink} href="./gallery" color={'white'}>Gallery</MenuItem>
+                                <MenuItem as={MenuLink} href="mailto:oxdphotography@gmail.com" color={'white'}>Contact Me</MenuItem>
                             </MenuList>
                         </Menu>
                     </Box>
